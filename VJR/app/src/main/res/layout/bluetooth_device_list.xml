@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button_off"
+        android:id="@+id/gridLayout">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="352dp"
+            android:id="@+id/listView_device"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="93dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_row="4"
+            android:layout_column="8" />
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth à portée"
+                android:id="@+id/button_not_paired"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activer bluetooth"
+            android:onClick="on"
+            android:id="@+id/button_on" />
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Désactiver bluetooth"
+                android:onClick="off"
+                android:id="@+id/button_off" />
+    </LinearLayout>
+
+
+</LinearLayout>

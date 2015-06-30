@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VJR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_mod">Mode fixe / Mode retour auto</string>
+    <string name="action_deco">Deconnexion</string>
+    <string name="action_about">A propos de</string>
+    <string name="front_lab">Front</string>
+    <string name="front_right_lab">Front right</string>
+    <string name="right_lab">right</string>
+    <string name="right_bottom_lab">right bottom</string>
+    <string name="bottom_lab">Bottom</string>
+    <string name="bottom_left_lab">Bottom left</string>
+    <string name="left_lab">Left</string>
+    <string name="left_front_lab">Left front</string>
+    <string name="center_lab">Center</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="pref_title_system_sync_settings" />
+    <string name="pref_title_sync_frequency" />
+
+</resources>
