@@ -139,8 +139,9 @@ public class BluetoothActivity extends Activity implements View.OnClickListener 
     private void finishWithResult(String BTName){
 
         final   Bundle conData = new Bundle();
+
         for (android.bluetooth.BluetoothDevice bt : btDeviceList){
-                if(bt.getName().equals(BTName)){
+                if(bt.getName() != null && bt.getName().equals(BTName)){
                     conData.putString("BTAddr",bt.getAddress());
                     Intent intent  = new Intent(BluetoothActivity.this, VJR.class);
                     intent.putExtras(conData);
